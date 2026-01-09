@@ -1,0 +1,21 @@
+# Exclude output directory
+output/
+
+# Exclude flight data directory
+data/
+
+# build
+__pycache__
+.ipynb_checkpoints
+.mypy_cache
+.pytest_cache
+
+# scripts
+*.pdf
+
+# Exclude Python virtual environment
+.venv
+
+# Misc
+config/
+.DS_Store
